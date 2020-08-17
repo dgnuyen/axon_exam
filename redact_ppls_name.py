@@ -19,7 +19,7 @@ with open('personal.json', 'w') as json_file:
 
 
 for user in name:
-    with fileinput.FileInput('personal.json', inplace=True, backup='.bak') as file:
+    with fileinput.FileInput('personal.json', inplace=True) as file:
         for line in file:
             print(line.replace(user, ""), end='')
 
