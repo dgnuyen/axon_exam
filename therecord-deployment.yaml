@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: therecord-deployment
+spec:
+  selector:
+    matchLabels:
+      app: therecord
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: therecord
+    spec:
+      containers:
+      - name: therecord
+        image: therecord:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
