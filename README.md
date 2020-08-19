@@ -12,4 +12,4 @@
 
 3. CI process will be described in "CI_document.docx"
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/dgnuyen/axon_exam/blob/master/photo-1487035242901-d419a42d17af.jpeg)
