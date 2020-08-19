@@ -11,3 +11,5 @@
     -   YAML files "therecord-deployment.yaml" & "therecord-svc.yaml" can be run to deploy the microserivce in to local k8s by creating deployment resource and service resource then expose the service via NodePort mode.
 
 3. CI process will be described in "CI_document.docx"
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
